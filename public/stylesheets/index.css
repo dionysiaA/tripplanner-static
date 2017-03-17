@@ -1,2 +1,18 @@
-select {
-  padding-left: 40px; }
+* {
+  box-sizing: border-box; }
+
+#navbar ol.breadcrumb {
+  height: 50px;
+  padding: 10px 10px;
+  border-radius: 0px;
+  list-style: none; }
+  #navbar ol.breadcrumb li {
+    display: inline; }
+
+body #sidebar {
+  padding: 10px; }
+  body #sidebar #dropdownsBox {
+    padding: 40px;
+    border: solid 1px black;
+    border-radius: 5px;
+    width: 95%; }
